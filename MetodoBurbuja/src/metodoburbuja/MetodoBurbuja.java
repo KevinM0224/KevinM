@@ -11,10 +11,10 @@ public class MetodoBurbuja {
 
    
     public static void main(String[] args) {
-          int[] arreglo = new int[10];
+          int[] arreglo = new int[20];
 
         for (int i = 0; i < arreglo.length; i++) {
-            String input = JOptionPane.showInputDialog("Ingrese el valor de la venta " + (i + 1) + ":" );
+            String input = JOptionPane.showInputDialog("Ingrese el valor de " + (i + 1) + ":" );
             arreglo[i] = Integer.parseInt(input);
         }
 
